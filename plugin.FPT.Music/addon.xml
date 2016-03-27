@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.FPT.Music"
+version="1.0.0"
+name="TV_Music"
+provider-name="Đức Thuận">
+<requires>
+  <import addon="xbmc.python" version="2.24"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Truyền Hình Và Ca Nhạc Được Tổng Hợp Từ Các Nguồn Khác Nhau</summary>
+  <description lang="en">video.</description>
+  <disclaimer lang="en">TV And Music.</disclaimer>
+</extension>
+</addon>
