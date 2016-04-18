@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<addon id="repository.nguyenducthuan"
+       version="[COLOR pink]1.[COLOR rose]0[/COLOR]"
+       name="[COLOR lime]Enter[COLOR red]tain[COLOR gold]ment[/COLOR]"
+       provider-name="[COLOR fuchsia]Nguyễn [COLOR lime]Đức [COLOR khaki]Thuận[/COLOR]">
+	<extension point="xbmc.addon.repository" name="Đức Thuận">
+		<info compressed="false">https://raw.github.com/thuancp86/repository.nguyenducthuan/master/addons.xml</info>
+		<checksum>https://raw.github.com/thuancp86/repository.nguyenducthuan/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/thuancp86/repository.nguyenducthuan/tree/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR fuchsia]Nguyễn [COLOR orange]Đức [COLOR tomato]Thuận [COLOR lime]86[/COLOR]</summary>
+		<description>[COLOR lime]Addon Entertainment được tổng hợp từ nhiều nguồn khác nhau trên internet,đây là addon giải trí tổng hợp.[/COLOR]</description>
+		<disclaimer lang="en">Hy vọng addon này có thể giúp mọi người có những giây phút thư giãn tuyệt vời bên gia đình và người thân.GOOD LUCK!</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
