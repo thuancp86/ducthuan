@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.nguyenducthuan" name="[COLOR lime]Enter[COLOR red]tain[COLOR gold]ment[/COLOR]" version="[COLOR pink]1.[COLOR rose]0[/COLOR]" provider-name="[COLOR fuchsia]Nguyễn [COLOR lime]Đức [COLOR khaki]Thuận[/COLOR]">
+
+<addon id="repository.nguyenducthuan"
+       version="[COLOR pink]1.[COLOR rose]0[/COLOR]"
+       name="[COLOR lime]Enter[COLOR red]tain[COLOR gold]ment[/COLOR]"
+       provider-name="[COLOR fuchsia]Nguyễn [COLOR lime]Đức [COLOR khaki]Thuận[/COLOR]">
 	<extension point="xbmc.addon.repository" name="Đức Thuận">
-		<info compressed="false">https://raw.githubusercontent.com/thuancp86/repository.nguyenducthuan/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/thuancp86/repository.nguyenducthuan/master/addons.xml.md5</checksum>
+		<info compressed="false">https://raw.github.com/thuancp86/repository.nguyenducthuan/master/addons.xml</info>
+		<checksum>https://raw.github.com/thuancp86/repository.nguyenducthuan/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/thuancp86/repository.nguyenducthuan/tree/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -12,4 +16,3 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-
