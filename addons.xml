@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.thuan" name="[COLOR lime]Thuan [COLOR red]Repository[/COLOR]" version="[COLOR pink]1.[COLOR rose]0.[COLOR lime]0[/COLOR]" provider-name="[COLOR fuchsia]Nguyễn [COLOR lime]Đức [COLOR khaki]Thuận[/COLOR]">
+	<extension point="xbmc.addon.repository" name="Thuận Addon Repository">
+		<info compressed="false">https://raw.github.com/thuancp86/ducthuan/master/addons.xml</info>
+		<checksum>https://raw.github.com/thuancp86/ducthuan/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/thuancp86/ducthuan/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR fuchsia]Nguyễn [COLOR orange]Đức [COLOR tomato]Thuận [COLOR lime]86[/COLOR]</summary>
+		<description>[COLOR lime]Addon được tổng hợp từ nhiều nguồn khác nhau trên internet,đây là addon giải trí tổng hợp.[/COLOR]</description>
+		<disclaimer lang="en">Hy vọng addon này có thể giúp mọi người có những giây phút thư giãn tuyệt vời bên gia đình và người thân.GOOD LUCK!</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="xbmc.repo.xshare" name="[COLOR red][B]Xshare[/COLOR] [COLOR blue]Repository[/B][/COLOR]" version="1.0.0" provider-name="thaitni">
+	<extension point="xbmc.addon.repository" name="Official XBMC.org Add-on Repository">
+		<info compressed="true">https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master</datadir>
+		<hashes>true</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Play Video with find subs on XBMC from many host</summary>
+		<description>Download and install addons from Xshare Repository: Watch movies from fshare.vn, 4share.vn, tenlua.vn, ...</description>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GNU General Public License - v2</license>
+		<source>https://github.com/thaitni/xbmc.repo.xshare</source>
+		<email>thai@thanhthai.net</email>
+	</extension>
+</addon>
+
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.43" provider-name="spoyser">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.metahandler" optional="true" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio executable image</provides>
+  </extension>
+  
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
+    <description lang="en">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
+    <website></website>
+    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
+    <email>seanpoyser at gmail.com</email>
+  </extension>
+  
+  <extension point="kodi.context.item" library="capture.py">		
+      <item>
+        <label>30000</label>
+        <visible>true</visible>
+      </item>
+    </extension>
+</addon>
+
+<addon id="repository.itvplus"
+		name="ITV Repository"
+		version="1.0.0"
+		provider-name="ITV member">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+	<extension point="xbmc.addon.repository"
+		name="ITV Add-on's Repository">
+		<info compressed="true">http://xbmc.itvplus.net/REPO/addons.xml</info>
+		<checksum>http://xbmc.itvplus.net/REPO/addons.xml.md5</checksum>		
+		<datadir zip="true">http://xbmc.itvplus.net/REPO</datadir>
+		<hashes>true</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Entertainment</summary>
+		<description lang="en">Download and install addons from ITV Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.vietccloud" name="VietcCloud Repository" version="1.0.0" provider-name="podgod-clone">
+	<extension point="xbmc.addon.repository" name="vietcCloud Addon Repository">
+		<info compressed="false">https://github.com/vietccloudtv/repository.vietccloud/raw/master/addons.xml</info>
+		<checksum>https://github.com/vietccloudtv/repository.vietccloud/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/vietccloudtv/repository.vietccloud/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi repository</summary>
+		<description>Repository for Kodi</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.shani" name="Shanis Addon Repository" version="2.8" provider-name="Shani">
+	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
+    <dir>
+            <info compressed="false">https://raw.github.com/Shani-08/ShaniXBMCWork2/master/addons.xml</info>
+            <checksum>https://raw.github.com/Shani-08/ShaniXBMCWork2/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/Shani-08/ShaniXBMCWork2/master/zips</datadir>
+    </dir>
+    
+    <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
+    <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
+    <datadir zip="true">https://offshoregit.com/Shani-08/main/zips</datadir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Addons related to XBMC for Zemtv etc</summary>
+		<description>Go though the plugins and see what you like</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon 
+	id="repository.hieuhien.vn" 
+	version="1.0.0" 
+	name="[COLOR lime][B]Hieuhien.vn Repository[/B][/COLOR]" 
+	provider-name="Hieuhien.vn">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository"
+		name="[COLOR lime][B]Hieuhien.vn Repository[/B][/COLOR]">
+		<info compressed="true">https://raw.github.com/hieuhienvn/hieuhien.vn/master/addons.xml</info>
+		<checksum>https://raw.github.com/hieuhienvn/hieuhien.vn/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/hieuhienvn/hieuhien.vn/raw/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addon from Hieuhien.vn's repository</summary>
+		<description lang="en">[COLOR red][B]Hieuhien.vn[/COLOR]-[COLOR lime]Repository tập hợp các addon và repository giải trí online trên XBMC - Kodi[/B][/COLOR]</description>
+		<disclaimer lang="en">Mọi nội dung được lấy từ Internet vì vậy chúng tôi không chịu trách nhiệm về chất lượng cũng như sự ổn định</disclaimer>
+		<email>contact@hieuhien.vn</email>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.youtube" name="YouTube" version="5.1.20.6" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+        <summary lang="en">Plugin for YouTube</summary>
+        <description lang="en">YouTube is one of the biggest video-sharing websites of the world.</description>
+		<summary lang="de">Plugin für YouTube</summary>
+        <description lang="de">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
+        <summary lang="pl">Wtyczka YouTube</summary>
+        <description lang="pl">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
+		<summary lang="hu">Kiegészítő  a YouTube-hoz</summary>
+        <description lang="hu">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
+        <summary lang="es">Plugin para YouTube</summary>
+        <description lang="es">YouTube es un uno de los mayores sitios web de intercambio de vídeos del mundo.</description>
+        <summary lang="ru">Видеодополнение YouTube</summary>
+        <description lang="ru">Данное дополнение позволяет находить и смотреть видео на всеми любимом сайте.</description>
+        <summary lang="fr">Plugin pour YouTube</summary>
+        <description lang="fr">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
+        <summary lang="zh">YouTube附加元件</summary>
+        <description lang="zh">「Youtube」是全世界最大的影片分享網站</description>
+        <summary lang="bg">Добавка за YouTube</summary>
+        <description lang="bg">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+		<summary lang="el">Πρόσθετο YouTube</summary>
+        <description lang="el">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=267160</forum>
+		<website>http://www.youtube.com</website>
+		<email>ytplugin at datanet dot ws</email>
+		<source>https://github.com/Kolifanes/plugin.video.youtube</source>
+	</extension>
+</addon>
+
+<addon id="repository.vietmedia"
+		name="VietMedia Add-ons"
+		version="1.0.0"
+		provider-name="VietMedia">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+	<extension point="xbmc.addon.repository"
+		name="VietMedia Add-on Repository">
+		<info compressed="true">https://raw.github.com/onepas/kodi-addons/master/addons.xml</info>
+		<checksum>https://raw.github.com/onepas/kodi-addons/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/onepas/kodi-addons/master</datadir>
+		<hashes>true</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">VietMedia Entertainment</summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
